@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bkbs1jrkx8pai"]
+
+[ext_resource type="Shader" uid="uid://qgtj46qnji6w" path="res://assets/chapter_01/spaces/tangent_space/materials/shaders/anime_eyes.gdshader" id="1_swbp1"]
+[ext_resource type="Texture2D" uid="uid://dtdxmsdcxa1yu" path="res://assets/chapter_01/spaces/tangent_space/textures/eye_colorful_color.png" id="2_i5662"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_swbp1")
+shader_parameter/_MainTex = ExtResource("2_i5662")
