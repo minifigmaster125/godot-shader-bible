@@ -1,7 +1,7 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://bcckkrhu4mdxn"]
 
-[ext_resource type="Shader" uid="uid://dtbkuv37h1uat" path="res://assets/chapter_02/rim_fresnel/materials/shaders/rim_fresnel.gdshader" id="1_ghfex"]
+[ext_resource type="Shader" uid="uid://dtbkuv37h1uat" path="res://assets/chapter_02/rim_fresnel/materials/shaders/rim_fresnel.gdshader" id="1_qxtht"]
 
 [resource]
 render_priority = 0
-shader = ExtResource("1_ghfex")
+shader = ExtResource("1_qxtht")
