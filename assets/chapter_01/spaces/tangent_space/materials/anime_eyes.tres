@@ -2,8 +2,15 @@
 
 [ext_resource type="Shader" uid="uid://qgtj46qnji6w" path="res://assets/chapter_01/spaces/tangent_space/materials/shaders/anime_eyes.gdshader" id="1_swbp1"]
 [ext_resource type="Texture2D" uid="uid://dtdxmsdcxa1yu" path="res://assets/chapter_01/spaces/tangent_space/textures/eye_colorful_color.png" id="2_i5662"]
+[ext_resource type="Texture2D" uid="uid://7ut327bdmcrv" path="res://assets/chapter_01/spaces/tangent_space/textures/eye_border.png" id="2_mtjgs"]
+[ext_resource type="Texture2D" uid="uid://chj8qs5crvlyj" path="res://assets/chapter_01/spaces/tangent_space/textures/eye_depth.png" id="3_vtx87"]
+[ext_resource type="Texture2D" uid="uid://kavj1jxv8scm" path="res://assets/chapter_01/spaces/tangent_space/textures/eye_shine.png" id="5_5fhl8"]
 
 [resource]
 render_priority = 0
 shader = ExtResource("1_swbp1")
 shader_parameter/_MainTex = ExtResource("2_i5662")
+shader_parameter/_Offset = 0.30000000447036
+shader_parameter/_Depth = ExtResource("3_vtx87")
+shader_parameter/_Border = ExtResource("2_mtjgs")
+shader_parameter/_Shine = ExtResource("5_5fhl8")

@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://bs6uwl3v3ume7"]
+
+[ext_resource type="Shader" uid="uid://dq15071v4w5uu" path="res://assets/chapter_02/lambert/materials/shaders/lambert.gdshader" id="1_aln44"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_aln44")

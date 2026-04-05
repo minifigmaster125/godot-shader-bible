@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cq4t27yg0f6fj"]
+
+[ext_resource type="Shader" uid="uid://gbdwil0vxrac" path="res://assets/chapter_02/blinn_phong/materials/shaders/blinn_phong.gdshader" id="1_ghfex"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ghfex")

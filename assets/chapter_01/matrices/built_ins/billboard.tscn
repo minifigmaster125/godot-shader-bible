@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dkfouskiqpak0"]
+
+[ext_resource type="Material" uid="uid://l4e7oea2ur5i" path="res://assets/chapter_01/matrices/built_ins/materials/billboard_effect.tres" id="1_bdsdq"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_cyov2"]
+
+[node name="Node3D" type="Node3D" unique_id=2082309544]
+
+[node name="Billboard" type="MeshInstance3D" parent="." unique_id=1155572891]
+material_override = ExtResource("1_bdsdq")
+mesh = SubResource("QuadMesh_cyov2")

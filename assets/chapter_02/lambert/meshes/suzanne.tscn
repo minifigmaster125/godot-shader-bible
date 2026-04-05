@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://d1tk8guv3ju1l"]
+
+[ext_resource type="PackedScene" uid="uid://bhsmgk23nqbil" path="res://assets/chapter_02/lambert/meshes/suzanne.fbx" id="1_2rpyt"]
+[ext_resource type="ArrayMesh" uid="uid://dwe3nvr10d408" path="res://assets/chapter_02/lambert/meshes/suzanne.tres" id="2_8kril"]
+
+[node name="suzanne" unique_id=577561992 instance=ExtResource("1_2rpyt")]
+
+[node name="Suzanne" parent="." index="2" unique_id=507775218]
+mesh = ExtResource("2_8kril")

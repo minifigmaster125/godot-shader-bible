@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://do6k2nbxf4j60"]
+
+[ext_resource type="Material" uid="uid://cm0ostpbgxpiy" path="res://assets/chapter_01/matrices/custom/materials/transformations.tres" id="1_lh5fq"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_2edw1"]
+
+[node name="Transformations" type="Node3D" unique_id=1111372743]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1926711082]
+material_override = ExtResource("1_lh5fq")
+mesh = SubResource("BoxMesh_2edw1")

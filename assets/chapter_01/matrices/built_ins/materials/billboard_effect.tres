@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://l4e7oea2ur5i"]
+
+[ext_resource type="Shader" uid="uid://cof7ac5w0kx1s" path="res://assets/chapter_01/matrices/built_ins/materials/shaders/billboard_effect.gdshader" id="1_s5y4r"]
+[ext_resource type="Texture2D" uid="uid://clrs3i4iv00wu" path="res://assets/chapter_01/matrices/built_ins/textures/item_box_symbol_tex.png" id="2_5b2sv"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_s5y4r")
+shader_parameter/_MainTex = ExtResource("2_5b2sv")

@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://h7tohg74q2mf"]
 
 [ext_resource type="ArrayMesh" uid="uid://cyvu1fhc00kem" path="res://assets/chapter_01/custom_mesh/custom_quad.obj" id="1_0wgoi"]
+[ext_resource type="Material" uid="uid://bkbs1jrkx8pai" path="res://assets/chapter_01/spaces/tangent_space/materials/anime_eyes.tres" id="1_gidmp"]
 
 [node name="CustomMesh" type="Node3D" unique_id=1253075091]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1594170174]
+material_override = ExtResource("1_gidmp")
 mesh = ExtResource("1_0wgoi")

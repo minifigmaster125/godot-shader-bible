@@ -1,14 +1,14 @@
 shader_type spatial;
-render_mode unshaded;
 
-uniform sampler2D _MainTex : source_color;
+#define TRANSFORMATION_MATRIX(s) mat3(vec3(s,0,0), vec3(1,s,0), vec3(0,0,s));
 
 void vertex() {
 	// Called for every vertex the material is visible on.
+	VERTEX = VERTEX * TRANSFORMATION_MATRIX(1);
 }
 
 void fragment() {
-	ALBEDO = texture(_MainTex, UV).rgb;
+	// Called for every pixel the material is visible on.
 }
 
 //void light() {
