@@ -11,7 +11,7 @@ float hemisphere(vec3 n, float s){
 	return smoothstep(0.0 + s, 1.0 - s, t);
 }
 
-float lambert(vec3 n, vec3 l, vec3 i){
+float lambert(vec3 n, vec3 l, float i){
 	return max(0.0, dot(n,l)) * i;
 }
 
