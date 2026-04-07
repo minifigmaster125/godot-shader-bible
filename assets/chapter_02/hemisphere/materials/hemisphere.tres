@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://b4ycfty2qmfed"]
+
+[ext_resource type="Shader" uid="uid://68g3tf28xqdt" path="res://assets/chapter_02/hemisphere/materials/shaders/hemisphere.gdshader" id="1_ls6x5"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ls6x5")
