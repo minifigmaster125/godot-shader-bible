@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c8w540fu7mfpm"]
+
+[ext_resource type="ArrayMesh" uid="uid://kvwroj8f7txj" path="res://assets/chapter_02/anisotropy/meshes/character_model.obj" id="1_wqk73"]
+[ext_resource type="Material" uid="uid://c7juvnv1hksub" path="res://assets/chapter_02/anisotropy/materials/character_eyes.tres" id="2_dc1od"]
+[ext_resource type="Material" uid="uid://bia8hkeekts7c" path="res://assets/chapter_02/anisotropy/materials/character_hair.tres" id="3_naojh"]
+[ext_resource type="Material" uid="uid://bvpnp0kiuxk74" path="res://assets/chapter_02/anisotropy/materials/character_skin.tres" id="4_6fr4e"]
+
+[node name="Node3D" type="Node3D" unique_id=717489392]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1028675546]
+mesh = ExtResource("1_wqk73")
+surface_material_override/0 = ExtResource("2_dc1od")
+surface_material_override/1 = ExtResource("3_naojh")
+surface_material_override/2 = ExtResource("4_6fr4e")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=329980414]
+transform = Transform3D(0.76804876, 0.5545952, -0.32019567, -0.3080113, 0.758287, 0.57456934, 0.56145346, -0.34267348, 0.7532228, 0, 7.0979033, 0)
