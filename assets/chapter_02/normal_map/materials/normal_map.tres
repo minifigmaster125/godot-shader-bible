@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://brcuriguxi0j6"]
+
+[ext_resource type="Shader" uid="uid://yjyw4didc54s" path="res://assets/chapter_02/normal_map/materials/shaders/normal_map.gdshader" id="1_fefpt"]
+[ext_resource type="Texture2D" uid="uid://ciocaifq2uvql" path="res://assets/chapter_02/normal_map/textures/treasure_chest_tex.png" id="2_kylc4"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_fefpt")
+shader_parameter/_MainTex = ExtResource("2_kylc4")
+shader_parameter/_Scale = 0.0
