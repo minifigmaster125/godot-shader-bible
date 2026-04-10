@@ -13,6 +13,15 @@ void vertex() {
 void fragment() {
 	// Called for every pixel the material is visible on.
 	vec3 albedo = texture(_MainTex, UV).xyz;
+	vec3 normal_map = texture(_NormalMap, UV).rgb;
+	normal_map = normal_map * 2. -1.;
+	normal_map *= _Scale;
+	float n_z = clamp(dot(normal_map.xy, normal_map.xy), 0.0, 1.0);
+	normal_map.z = sqrt(1. - n_z);
+	
+	mat3 TBN = mat3(TANGENT.xyz, BINORMAL.xyz, NORMAL.xyz);
+	vec3 normal_vs = normalize(TBN * normal_map);
+	NORMAL = normal_vs;
 	ALBEDO = albedo;
 }
 
