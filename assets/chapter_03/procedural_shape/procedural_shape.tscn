@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://nnsk4n4h7ter"]
+
+[ext_resource type="Material" uid="uid://ciqwis8n7iim8" path="res://assets/chapter_03/procedural_shape/materials/procedural_shape.tres" id="1_7ksls"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_xgtb0"]
+
+[node name="ProceduralShape" type="Node3D" unique_id=625407412]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1847010628]
+material_override = ExtResource("1_7ksls")
+mesh = SubResource("QuadMesh_xgtb0")

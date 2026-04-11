@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ciqwis8n7iim8"]
+
+[ext_resource type="Shader" uid="uid://dg7jxv0ahr2ll" path="res://assets/chapter_03/procedural_shape/materials/shaders/procedural_shape.gdshader" id="1_uscjl"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_uscjl")
+shader_parameter/_EyebrowRotation = 45.0
+shader_parameter/_BackboneRotation = 22.20000007748624
+shader_parameter/_HeadSize = 0.30000001192093
+shader_parameter/_FacePosition = 0.0
+shader_parameter/_EyeSize = 0.09999999776481
+shader_parameter/_HeadColor = Color(0.61, 0.35990003, 0.35990003, 1)
+shader_parameter/_EyeColor = Color(0.14760001, 0.41, 0.30503997, 1)
+shader_parameter/_BackboneColor = Color(0, 0, 0, 1)
+shader_parameter/_BandanaColor = Color(0.2784, 0.32364005, 0.58, 1)
+shader_parameter/_EyebrowColor = Color(0.91484934, 0.59828913, 0.66560566, 1)
