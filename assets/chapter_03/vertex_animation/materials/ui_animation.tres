@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c2dqdoguoyq2o"]
+
+[ext_resource type="Shader" uid="uid://dfl4udlx4oo8t" path="res://assets/chapter_03/vertex_animation/materials/shaders/ui_animation.gdshader" id="1_tuycm"]
+
+[resource]
+shader = ExtResource("1_tuycm")
+shader_parameter/_VertexAnimation = true
+shader_parameter/_VertexScale = 0.02999999932944
+shader_parameter/_VertexSpeed = 1.1000000014901201
+shader_parameter/_SpecularSpeed = 2.0
+shader_parameter/_SpecularColor = Color(0.4224023, 0.6506996, 0.26973912, 1)
