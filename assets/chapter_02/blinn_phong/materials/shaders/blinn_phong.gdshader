@@ -21,7 +21,7 @@ void fragment() {
 void light() {
 
 	float diffuse = lambert(LIGHT, NORMAL, ATTENUATION);
-	float s = phong(VIEW, LIGHT, NORMAL, 200.0);
+	float s = phong(VIEW, LIGHT, NORMAL, 20.0);
 	
 	DIFFUSE_LIGHT += vec3(diffuse) * 0.3;
 	SPECULAR_LIGHT += vec3(s);

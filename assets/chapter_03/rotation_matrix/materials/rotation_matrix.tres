@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://djxmwu6ky3h1b"]
+
+[ext_resource type="Shader" uid="uid://du2ffr8n2qdxn" path="res://assets/chapter_03/rotation_matrix/materials/shaders/rotation_matrix.gdshader" id="1_h77kx"]
+[ext_resource type="Texture2D" uid="uid://cqq8p2pcrcbx5" path="res://assets/chapter_03/rotation_matrix/textures/custom_box_tex.png" id="2_5ksby"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_h77kx")
+shader_parameter/_BaseMap = ExtResource("2_5ksby")
+shader_parameter/_Angles = Vector3(90, -0.45, 0.235)

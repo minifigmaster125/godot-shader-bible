@@ -5,5 +5,8 @@
 
 [node name="suzanne" unique_id=577561992 instance=ExtResource("1_2rpyt")]
 
+[node name="Light" parent="." index="1" unique_id=1804606907]
+visible = false
+
 [node name="Suzanne" parent="." index="2" unique_id=507775218]
 mesh = ExtResource("2_8kril")

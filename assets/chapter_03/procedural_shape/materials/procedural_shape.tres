@@ -6,7 +6,7 @@
 render_priority = 0
 shader = ExtResource("1_uscjl")
 shader_parameter/_EyebrowRotation = 45.0
-shader_parameter/_BackboneRotation = 22.20000007748624
+shader_parameter/_BackboneRotation = 30.500000201166202
 shader_parameter/_HeadSize = 0.30000001192093
 shader_parameter/_FacePosition = 0.0
 shader_parameter/_EyeSize = 0.09999999776481

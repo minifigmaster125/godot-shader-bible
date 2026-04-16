@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://bamcjb6btpqqd"]
 
-[ext_resource type="Material" uid="uid://bs6uwl3v3ume7" path="res://assets/chapter_02/lambert/materials/lambert.tres" id="1_6vkvv"]
+[ext_resource type="Material" uid="uid://cq4t27yg0f6fj" path="res://assets/chapter_02/blinn_phong/materials/blinn_phong.tres" id="1_8h4hc"]
 [ext_resource type="ArrayMesh" uid="uid://dwe3nvr10d408" path="res://assets/chapter_02/lambert/meshes/suzanne.tres" id="2_qvsl1"]
 
 [node name="Lambert" type="Node3D" unique_id=2036709088]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=451036114]
-material_override = ExtResource("1_6vkvv")
+material_override = ExtResource("1_8h4hc")
 mesh = ExtResource("2_qvsl1")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=380199148]

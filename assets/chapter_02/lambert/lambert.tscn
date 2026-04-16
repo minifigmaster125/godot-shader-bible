@@ -4,6 +4,7 @@
 [ext_resource type="ArrayMesh" uid="uid://dwe3nvr10d408" path="res://assets/chapter_02/lambert/meshes/suzanne.tres" id="2_wv6co"]
 
 [node name="Lambert" type="Node3D" unique_id=2036709088]
+transform = Transform3D(0.9999704, -0.007696826, 0, 0.007696826, 0.9999704, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=451036114]
 material_override = ExtResource("1_koec6")

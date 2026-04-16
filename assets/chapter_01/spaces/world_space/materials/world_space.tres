@@ -1,3 +1,9 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://bbeax1740okog"]
 
+[ext_resource type="Shader" uid="uid://bdxes4emrlb3p" path="res://assets/chapter_01/spaces/world_space/materials/shaders/world_space.gdshader" id="1_q6our"]
+[ext_resource type="Texture2D" uid="uid://4ybaw3e2ltqi" path="res://assets/chapter_01/spaces/world_space/textures/tree_tex.jpg" id="2_dmkjj"]
+
 [resource]
+render_priority = 0
+shader = ExtResource("1_q6our")
+shader_parameter/_MainTex = ExtResource("2_dmkjj")
